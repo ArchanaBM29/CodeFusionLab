@@ -3,31 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact Us | CodeFusionLab</title>
-  <link rel="stylesheet" href="contact.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="practice.css">
 </head>
 <body>
 
-  <h2>Contact Us</h2>
-  <div class="contact-container">
-    <div class="contact-card">
-      <div class="contact-icon" aria-label="Location icon">📍</div>
-      <div class="contact-title">Visit Us</div>
-      <div class="contact-text">Visit our headquarters.</div>
-      <a class="contact-button" href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">View on Google Maps</a>
+  <div class="container py-5 text-center">
+    <h2 class="mb-5">Contact Us</h2>
+
+    <!-- Contact Cards -->
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="card contact-card p-4 shadow-sm">
+          <div class="contact-icon">📍</div>
+          <h5 class="card-title fw-bold">Visit Us</h5>
+          <p class="text-muted">Visit our headquarters.</p>
+          <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" class="btn btn-outline-danger">View on Google Maps</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card contact-card p-4 shadow-sm">
+          <div class="contact-icon">📞</div>
+          <h5 class="card-title fw-bold">Call Us</h5>
+          <p class="text-muted">Mon–Saturday 9AM–7PM</p>
+          <a href="tel:+91 9701270993" class="btn btn-outline-danger">+91 9701270993</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card contact-card p-4 shadow-sm">
+          <div class="contact-icon">✉️</div>
+          <h5 class="card-title fw-bold">Mail Us</h5>
+          <p class="text-muted">Send us an email.</p>
+          <a href="mailto:info@codefusionlab.com" class="text-danger text-decoration-none">info@codefusionlab.com</a>
+        </div>
+      </div>
     </div>
-    <div class="contact-card">
-      <div class="contact-icon" aria-label="Phone icon">📞</div>
-      <div class="contact-title">Call Us</div>
-      <div class="contact-text">Mon–Saturday 9AM–7PM</div>
-      <a class="contact-button" href="tel:+91 8147142364">+91 8147142364</a>
+
+    <!-- Contact Form -->
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-8">
+        <div class="card shadow-sm p-4">
+          <h4 class="mb-4 text-danger">Send Us a Message</h4>
+          <form action="#" method="POST">
+            <div class="mb-3">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea name="message" rows="5" class="form-control" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom">Send Message</button>
+          </form>
+        </div>
+      </div>
     </div>
-    <div class="contact-card">
-      <div class="contact-icon" aria-label="Mail icon">✉️</div>
-      <div class="contact-title">Mail Us</div>
-      <div class="contact-text">Send us an email.</div>
-      <a class="contact-email" href="mailto:info@codefusionlab.com">info@codefusionlab.com</a>
-    </div>
+
   </div>
+
+  <!-- Bootstrap JS Bundle (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
