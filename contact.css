@@ -1,0 +1,27 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.contact-icon {
+  font-size: 40px;
+  color: #d75d2b;
+  margin-bottom: 10px;
+}
+
+.contact-card {
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-custom {
+  background-color: #d75d2b;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #c14e21;
+  color: white;
+}
