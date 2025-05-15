@@ -22,7 +22,7 @@
   transform: scale(1.2);    
   color: #2196F3;           
 }
-    .class2{
+.class2{
         padding-top: 16px;
         padding-bottom: 16px;
     a{
@@ -193,6 +193,7 @@
 }
 .img{
     display: flex;
+    gap: 20px;
     height: 140px;
     width: 190px;
     margin-left: 30px;
