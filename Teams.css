@@ -9,16 +9,12 @@ body {
     padding-bottom: 15px;
     padding-top: 10px;
 
-    .class1 {
-  text-align: center;       
-  margin-top: 20px;  
-  padding-left: 29px;     
-  }
+
   .class1 i {
   font-size: 48px;         
   color: #ff8c09;           
   transition: transform 0.3s ease;
-}
+  }
 .class1 i:hover {
   transform: scale(1.2);    
   color: #2196F3;           
@@ -56,8 +52,6 @@ body {
     }
 }
 }
-
-
 .team-card {
   background-color: plum;
   border: 1px solid #dee2e6;
@@ -70,16 +64,12 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .team-card:hover {
   transform: translateY(-5px);
-  
 }
-
 .team-card img {
   width: 100%;
   height: 250px;
-  
 }
 h5{
   font-size: 18px;
@@ -91,7 +81,6 @@ p{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-
 img{
     border-radius: 125px;
 }
