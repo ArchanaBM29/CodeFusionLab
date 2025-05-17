@@ -1,5 +1,5 @@
 body {
-  background-color: #72add4;
+  background-color: #f4f8fc;
 }
 
 .parent{
@@ -17,7 +17,7 @@ body {
   }
 .class1 i:hover {
   transform: scale(1.2);    
-  color: #2196F3;           
+  color: #e6e9ec;           
 }
 .class2{
         padding-top: 16px;
@@ -53,7 +53,11 @@ body {
 }
 }
 .team-card {
+<<<<<<< HEAD
   background-color: rgba(176, 216, 178, 0.534);
+=======
+  background-color: rgb(233, 224, 233);
+>>>>>>> ed25f1a191a3410e13c20e067fc3448360f57a7b
   border: 1px solid #dee2e6;
   border-radius: 10px;
   overflow: hidden;
@@ -68,12 +72,22 @@ body {
   transform: translateY(-5px);
 }
 .team-card img {
+<<<<<<< HEAD
   width: 80%;
   height: 200px
 
 }
 
 
+=======
+  width: 50%;
+  height: 150px;
+  border-radius: 2000px;
+  align-items: center;
+  
+  
+}
+>>>>>>> ed25f1a191a3410e13c20e067fc3448360f57a7b
 
 h5{
   font-size: 18px;
