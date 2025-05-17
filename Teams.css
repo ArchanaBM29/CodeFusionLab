@@ -1,9 +1,59 @@
 body {
-  background-color: #f8f9fa;
+  background-color: #72add4;
 }
 
+.parent{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 10px gray;
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+
+  .class1 i {
+  font-size: 48px;         
+  color: #ff8c09;           
+  transition: transform 0.3s ease;
+  }
+.class1 i:hover {
+  transform: scale(1.2);    
+  color: #2196F3;           
+}
+.class2{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    a{
+        text-decoration: none;
+        padding:20px;
+        color: rgb(81, 81, 81);
+        font-size: 16px;
+        font-family: "Inter", Sans-serif;
+        font-weight: 500;
+    }
+    span{
+        color: black;
+        text-decoration: 2px underline rgb(255, 98, 0);  
+    }
+}
+.class3{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-family: "Inter", Sans-serif;
+        font-weight: 500;
+        border: 2px solid black;
+        background-color: black;
+        padding: 8px 25px;
+        border-radius: 30px;
+        margin-right: 16px;
+    }
+}
+}
 .team-card {
-  background-color: #fff;
+  background-color: plum;
   border: 1px solid #dee2e6;
   border-radius: 10px;
   overflow: hidden;
@@ -14,14 +64,28 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .team-card:hover {
   transform: translateY(-5px);
-  
 }
-
 .team-card img {
   width: 100%;
   height: 250px;
-  
 }
+<<<<<<< HEAD
+
+=======
+h5{
+  font-size: 18px;
+  text-decoration: underline;
+  text-transform: uppercase ;
+  font-weight: bold;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+img{
+    border-radius: 125px;
+}
+>>>>>>> a112b2e8ae4364e7e4cdef24d6353e6b58fd1465
+
