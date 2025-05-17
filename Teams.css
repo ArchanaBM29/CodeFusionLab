@@ -1,5 +1,5 @@
 body {
-  background-color: #72add4;
+  background-color: #f4f8fc;
 }
 
 .parent{
@@ -17,7 +17,7 @@ body {
   }
 .class1 i:hover {
   transform: scale(1.2);    
-  color: #2196F3;           
+  color: #e6e9ec;           
 }
 .class2{
         padding-top: 16px;
@@ -53,9 +53,9 @@ body {
 }
 }
 .team-card {
-  background-color: plum;
+  background-color: rgb(233, 224, 233);
   border: 1px solid #dee2e6;
-  border-radius: 10px;
+  border-radius: 100px;
   overflow: hidden;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
