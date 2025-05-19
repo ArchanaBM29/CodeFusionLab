@@ -30,7 +30,7 @@
   height: 400px;
   display: flex;
   flex-direction: column;
-  background-color: #111953; /* Blue background */
+  background-color: #e0e1e9; /* Blue background */
   color: orange;             /* Orange text */
   border-radius: 15px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
