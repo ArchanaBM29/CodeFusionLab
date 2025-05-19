@@ -1,0 +1,17 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bg-overlay {
+  background: url('https://i.ytimg.com/vi/PpugUg2RAiQ/maxresdefault.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
