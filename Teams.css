@@ -25,3 +25,19 @@ body {
   height: 250px;
   
 }
+.class2{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    a{
+        text-decoration: none;
+        padding:20px;
+        color: rgb(81, 81, 81);
+        font-size: 16px;
+        font-family: "Inter", Sans-serif;
+        font-weight: 500;
+    }
+    span{
+        color: black;
+        text-decoration: 2px underline rgb(255, 98, 0);  
+    }
+}
