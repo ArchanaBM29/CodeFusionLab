@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DCL Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="dcl-login.css" />
+</head>
+<body>
+  <div class="bg-overlay d-flex align-items-center justify-content-center min-vh-100">
+    <div class="card p-4 shadow-lg login-card">
+      <div class="card-body">
+        <h3 class="card-title text-center mb-4">Login to <span class="text-primary">Code Fusion Lab</span></h3>
+        <form id="loginForm">
+          <div class="mb-3">
+            <label for="username" class="form-label">Username or Email</label>
+            <input type="text" class="form-control" id="username" name="username" required />
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required />
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+        <div class="text-center mt-3">
+          <a href="register.html">Register</a> | 
+          <a href="#">Forgot Password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript to redirect to home.html after login
+    document.getElementById("loginForm").addEventListener("submit", function (e) {
+      e.preventDefault(); // Prevent actual form submission
+
+      // Optional: you can validate username/password here before redirect
+
+      // Redirect to home page
+      window.location.href = "first.html";
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

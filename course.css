@@ -2,83 +2,82 @@
 .intro-text {
   width: 100%;
   display: flex;
-  justify-content: center; /* center horizontally */
+  justify-content: center;
   align-items: center;
   margin: 40px 0 30px 0;
 }
 
 .intro-text h2 {
-  color: #B9764E; /* golden-ish to match your theme */
+  color: #B9764E;
   font-size: 28px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   text-align: center;
 }
 
-/* Container for course boxes */
-.parent7 {
+/* Flex container for cards */
+.cards-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
-  margin: 0 20px 50px 20px;
-  flex-wrap: wrap; /* wrap courses to next line */
-  justify-content: center; /* center the boxes as well */
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
-/* Common styles for all course boxes */
-.child8, .child9, .child10, .child11, .child12, .child13 {
-  width: 300px;  /* consistent width */
-  border-radius: 30px;
-  border: 1px solid black;
-
-  /* Matching the enquiry box background color from first.html */
-  background-color: #022D40;
-  color: white;
-
-  padding: 30px 25px;
-  box-sizing: border-box;
+/* Uniform card styling */
+.cards-container .card {
+  width: 18rem;
+  height: 400px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 25px;
+  background-color: #022D40; /* Blue background */
+  color: orange;             /* Orange text */
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
-/* Small orange line under the heading */
-.child8 hr, .child9 hr, .child10 hr, .child11 hr, .child12 hr, .child13 hr {
-  width: 35px;
-  border: 1px solid #B9764E; /* orange/golden */
-  margin-top: 60px;
-  margin-left: 0;
+/* Uniform image styling */
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
 }
 
-/* Course title */
-.child8 h1, .child9 h1, .child10 h1, .child11 h1, .child12 h1, .child13 h1 {
-  margin-top: 30px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  color: #B9764E; /* golden */
-  padding-left: 10px;
+/* Card body styling */
+.card-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  overflow: hidden;
 }
 
-/* Course description */
-.child8 p, .child9 p, .child10 p, .child11 p, .child12 p, .child13 p {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  margin-top: 15px;
-  padding-left: 10px;
-  color: white;
+/* Heading inside card */
+.card-body h1 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  color: orange;
+}
+
+/* Justified and controlled text */
+.card-body p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
   text-align: justify;
 }
 
-/* Responsive tweak: stack vertically on small screens */
-@media (max-width: 960px) {
-  .parent7 {
-    flex-direction: column;
-    align-items: center;
-  }
+/* Carousel size */
+.carousel-item {
+  max-height: 600px;
+  overflow: hidden;
+}
 
-  .child8, .child9, .child10, .child11, .child12, .child13 {
-    width: 90%;
-    max-width: 400px;
-  }
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
 }
