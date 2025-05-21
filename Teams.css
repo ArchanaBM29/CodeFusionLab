@@ -86,6 +86,31 @@ h5{
   font-weight: bold;
   padding: 20px;
 }
+
+.class2{
+  
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* spacing between links */
+  margin-bottom: 20px;
+
+
+        padding-top: 16px;
+        padding-bottom: 16px;
+}
+    a{
+        text-decoration: none;
+        padding:20px;
+        color: rgb(81, 81, 81);
+        font-size: 16px;
+        font-family: "Inter", Sans-serif;
+        font-weight: 500;
+    }
+    span{
+        color: black;
+        text-decoration: 2px underline rgb(255, 98, 0);  
+    }
+
 p{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
